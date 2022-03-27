@@ -1,5 +1,5 @@
 # Frontend Mentor - Order summary card
-
+live site https://order-component-summary-fm.netlify.app/
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
