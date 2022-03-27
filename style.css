@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(./images/pattern-background-desktop.svg);
+}
+
+.card {
+  width: 400px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+}
+
+.hero-svg {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.order-summary {
+  width: 100%;
+  padding: 2rem;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+  padding: 0 1rem;
+  padding-bottom: 1.2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.4rem;
+}
+
+.pricing-card {
+  width: 100%;
+  padding: 0.6rem 1.4rem 0.6rem 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: hsl(225, 100%, 94%);
+  opacity: 0.9;
+  border-radius: 0.6rem;
+}
+
+/* .icon-music {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  padding: 0.2rem;
+  flex-shrink: 0;
+} */
+
+.grow {
+  flex-grow: 1;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding-bottom: 0.3rem;
+}
+
+.price {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  font-size: 1.1rem;
+}
+
+.btn-change {
+  flex-shrink: 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: hsl(245, 75%, 52%);
+}
+
+.btn-change:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.btn {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-proceed {
+  width: 100%;
+  padding: 0.8rem 2rem;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 0.6rem;
+  margin-top: 2rem;
+  box-shadow: 0px 16px 4px 2px hsl(245, 75%, 96%);
+}
+
+.btn-proceed:hover {
+  opacity: 0.7;
+}
+.btn-cancel {
+  width: 100%;
+  color: hsl(224, 23%, 55%);
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  font-weight: 700;
+}
+
+.btn-cancel:hover {
+  opacity: 0.7;
+  color: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 416px) {
+  .card {
+    width: 100%;
+  }
+  .order-summary {
+    padding: 2rem 1rem;
+  }
+  .sub-title {
+    font-size: 1rem;
+  }
+}
